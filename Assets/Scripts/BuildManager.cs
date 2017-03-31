@@ -10,6 +10,7 @@ public class BuildManager : MonoBehaviour
 
     public GameObject basicTowerPrefab;
     public GameObject cannonTowerPrefab;
+    public GameObject missleTowerPrefab;
 
     void Awake()
     {

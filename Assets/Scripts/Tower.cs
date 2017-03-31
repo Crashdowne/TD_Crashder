@@ -6,13 +6,12 @@ public class Tower : MonoBehaviour {
 
     private Transform target;
     private EnemyBeh targetEnemy;
+    private float fireCountdown = 0f;
 
     public float range = 15f;
     public string enemyTag = "Enemy";
     public Transform partToRotate;
     public float turnSpeed = 10f;
-
-    private float fireCountdown = 0f;
     public float fireRate = 1f;
     public GameObject bulletPrefab;
     public Transform firePoint;

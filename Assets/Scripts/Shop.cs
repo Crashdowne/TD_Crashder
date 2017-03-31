@@ -22,4 +22,10 @@ public class Shop : MonoBehaviour {
         Debug.Log("Cannon");
         buildManager.SetTowerToBuild(buildManager.cannonTowerPrefab);
     }
+
+    public void PurchaseMissleTower()
+    {
+        Debug.Log("Missle");
+        buildManager.SetTowerToBuild(buildManager.missleTowerPrefab);
+    }
 }
